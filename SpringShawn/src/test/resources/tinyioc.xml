@@ -12,4 +12,9 @@
         <property name="outputService" ref="outputService"></property>
     </bean>
 
+    <bean name="helloWorldServiceAOP" class="tinySpring02.ioc.HelloWorldServiceAOPImpl">
+        <property name="text" value="Hello World!"></property>
+        <property name="outputService" ref="outputService"></property>
+    </bean>
+
 </beans>

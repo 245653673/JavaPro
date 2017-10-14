@@ -12,7 +12,7 @@ public abstract class AbstractBeanFactory implements BeanFactory {
 
     private Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
     private final List<String> beanDefinitionNames = new ArrayList<String>();
-    @Override
+
     public Object getBean(String name) {
         BeanDefinition beanDefinition = beanDefinitionMap.get(name);
         if (beanDefinition == null) {
@@ -26,7 +26,6 @@ public abstract class AbstractBeanFactory implements BeanFactory {
     }
 
 
-    @Override
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) {
         beanDefinitionMap.put(name, beanDefinition);
         beanDefinitionNames.add(name);
