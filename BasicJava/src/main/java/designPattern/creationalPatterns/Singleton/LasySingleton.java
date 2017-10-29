@@ -1,4 +1,4 @@
-package designPattern.Singleton;
+package designPattern.creationalPatterns.Singleton;
 
 /**懒汉式单例模式 --- 第一次使用时被创建
  * Created by hdfs on 2017/10/13.

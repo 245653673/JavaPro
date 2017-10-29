@@ -1,4 +1,4 @@
-package designPattern.Singleton;
+package designPattern.creationalPatterns.Singleton;
 
 /**饿汉式--上来就创建
  * Created by hdfs on 2017/10/13.

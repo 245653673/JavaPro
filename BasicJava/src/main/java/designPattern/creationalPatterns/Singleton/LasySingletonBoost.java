@@ -1,4 +1,4 @@
-package designPattern.Singleton;
+package designPattern.creationalPatterns.Singleton;
 
 /**
  * 懒汉模式的改进版，适应于多线程安全，不要因为代码和饿汉模式差不多而归于饿汉模式的改进版
