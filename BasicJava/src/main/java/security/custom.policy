@@ -1,0 +1,4 @@
+grant {
+    permission java.io.FilePermission "H:\\Java\\JavaPro\\BasicJava\\src\\main\\java\\security\\r.txt", "read";
+  //  permission java.net.SocketPermission "www.baidu.com:1-", "connect,resolve";
+};
